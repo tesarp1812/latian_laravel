@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->integer('nis')->nullable();
             $table->string('name');
-            $table->enum('role', ['admin', 'siswa']);
+            $table->enum('role', ['admin', 'siswa'])->default('siswa');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
