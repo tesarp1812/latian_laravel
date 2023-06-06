@@ -24,7 +24,7 @@ class UserSeeder extends Seeder
             'nis' => '101',
             'name' => 'Andi Saputra',
             'role' => 'siswa',
-            'email' => ' andi@sma404.com',
+            'email' => 'andi@sma404.com',
             'password' => bcrypt('password123')
         ]);
 
@@ -32,7 +32,7 @@ class UserSeeder extends Seeder
             'nis' => '102',
             'name' => 'Budi Cahya',
             'role' => 'siswa',
-            'email' => ' budi@sma404.com',
+            'email' => 'budi@sma404.com',
             'password' => bcrypt('password123')
         ]);
     }
