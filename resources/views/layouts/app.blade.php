@@ -36,6 +36,11 @@
                         <li>
                             <a href="{{url ('/info-kegiatan')}}" class="nav-link ">Info Kegiatan</a>
                         </li>
+                        @can('isAdmin')
+                        <li>
+                            <a href="{{url ('/user')}}" class="nav-link ">Manajement User</a>
+                        </li> 
+                        @endcan
                     </ul>
 
                     <!-- Right Side Of Navbar -->

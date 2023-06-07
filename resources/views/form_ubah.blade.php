@@ -5,7 +5,7 @@
 <div class="container">
     <div class="card">
         <div class="card-header">
-            <h3>Tambah Siswa</h3>
+            <h3>Ubah Data Siswa</h3>
         </div>
         <div class="card-body">
             <a href="{{route ('siswa.index')}}" class="btn btn-primary">Kembali</a>
