@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\User;
 
 class MenuController extends Controller
 {
@@ -18,6 +19,8 @@ class MenuController extends Controller
 
     public function data_siswa()
     {
-        return view('siswa');
+        $datasiswa = User::get();
+
+        return view('siswa', compact('datasiswa'));
     }
 }

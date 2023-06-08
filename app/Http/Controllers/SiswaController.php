@@ -14,6 +14,7 @@ class SiswaController extends Controller
     public function index()
     {
         //
+        // $datasiswa = User::where('role', 'siswa')->orWhere('role', 'admin')->get();
         $datasiswa = User::where('role', 'siswa')->get();
         return view('index', compact('datasiswa'));
     }

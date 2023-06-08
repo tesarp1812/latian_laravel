@@ -16,7 +16,7 @@
                     Nama <input type="text" name="inputName" required value="{{$datauser->name}}">
                     role <input type="text" name="inputRole" required value="{{$datauser->role}}">
                     Email <input type="text" name="inputEmail" required value="{{$datauser->email}}">
-                    Password <input type="text" name="inputPassword" required>
+                    Password <input type="text" name="inputPassword" >
                 </ul>
                 <input type="submit" value="Ubah Data" class="btn btn-success">
             </form>

@@ -6,12 +6,12 @@
          <h3 class="text-center">Info Kegiatan</h3>
          <p>Informasi Kegiatan Siswa Bulan Ini :</p>
          <ul>
-            <li>10 Agustus - Masa Orientasi Siswa</li>
-            <li>17 Agustus - Upacara Bendera</li>
+            <li>Sekolah Bebas Masuk</li>
+            <li>Masuk Gak Masuk Tetep Lulus</li>
          </ul>
          <p>Informasi Kegiatan Siswa Bulan Ini :</p>
          <ul>
-            <li>12 September - Ujian Tengah Semester</li>
+            <li>Ujian gak masuk tetep lulus asal bayar</li>
          </ul>
     </div>
     

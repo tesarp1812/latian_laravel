@@ -7,13 +7,16 @@
             <tr>
                 <th>Nama</th>
                 <th>NIS</th>
-                <th>Tanggal Lahir</th>
+                <th>Email</th>
             </tr>
+            @foreach ($datasiswa as $s)
             <tr>
-                <th>Andi Saputra</th>
-                <th>101</th>
-                <th>2003-12-22</th>
+                <td>{{$s->name}} </td>
+                <td>{{$s->nis}} </td>
+                <td>{{$s->email}} </td>
             </tr>
+            @endforeach
+            
         </table>
     
 @endsection

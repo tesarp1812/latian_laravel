@@ -21,7 +21,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/beranda') }}">
-                    SMA 404
+                    SIAKAD TESTING
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -36,6 +36,11 @@
                         <li>
                             <a href="{{url ('/info-kegiatan')}}" class="nav-link ">Info Kegiatan</a>
                         </li>
+                        @can('isAdmin')
+                        <li>
+                            <a href="{{url ('/siswa')}}" class="nav-link ">Manajement Siswa</a>
+                        </li> 
+                        @endcan
                         @can('isAdmin')
                         <li>
                             <a href="{{url ('/user')}}" class="nav-link ">Manajement User</a>
